@@ -1,0 +1,3 @@
+/home/mahdi/q2/problem2/server1/src/GStreamer/build/CMakeFiles/streamer.dir
+/home/mahdi/q2/problem2/server1/src/GStreamer/build/CMakeFiles/edit_cache.dir
+/home/mahdi/q2/problem2/server1/src/GStreamer/build/CMakeFiles/rebuild_cache.dir

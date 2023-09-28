@@ -1,0 +1,4 @@
+/home/mahdi/jazaery/CMakeFiles/embeddedServer.dir
+/home/mahdi/jazaery/CMakeFiles/webServer.dir
+/home/mahdi/jazaery/CMakeFiles/edit_cache.dir
+/home/mahdi/jazaery/CMakeFiles/rebuild_cache.dir

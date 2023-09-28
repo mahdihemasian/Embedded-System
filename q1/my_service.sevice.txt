@@ -1,0 +1,10 @@
+[Unit]
+Description=My custom service
+After=network.target
+
+[Service]
+ExecStart=/home/mahdi/mahdi/bin/websever
+ExecStart=/home/mahdi/mahdi/bin/embedded
+
+[Install]
+WantedBy=multi-user.target

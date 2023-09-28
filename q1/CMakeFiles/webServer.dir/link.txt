@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/webServer.dir/src/webServer.cpp.o -o bin/webServer  -L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -lssl -lcrypto -ldl -I/usr/include/mysql 
