@@ -49,4 +49,6 @@ The Video Streaming and Audio Analysis Server project aims to provide video stre
 ## Installation
 
 1. Clone the repository
-2. Run embedded server c code
+2. Run server1
+3. Run Gstreamer
+4. Run HLS browser
