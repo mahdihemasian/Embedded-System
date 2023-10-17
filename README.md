@@ -78,4 +78,6 @@ The server is implemented using the `http.server` library in Python, and the con
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
+2. Simulate proteus project
+3. Open web page and search localhost port 9000
