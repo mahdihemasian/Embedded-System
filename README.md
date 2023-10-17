@@ -52,3 +52,30 @@ The Video Streaming and Audio Analysis Server project aims to provide video stre
 2. Run server1
 3. Run Gstreamer
 4. Run HLS browser
+
+
+
+# Raspberry Pi 4 GPIO Control RESTful Server(q3)
+
+This project implements a RESTful server that controls the GPIO pins of a Raspberry Pi 4 module on the Proteus 8 simulator. The server runs on localhost and listens on port 9000. It uses GET requests to display an HTML page that contains three buttons to change the status of pins 17, 18, and 27 of the target module. The pin numbers follow the Broadcom SOC channel standard.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+
+## Project Overview
+This project implements a RESTful server that controls the GPIO pins of a Raspberry Pi 4 module on the Proteus 8 simulator. The server runs on localhost and listens on port 9000. It uses GET requests to display an HTML page that contains three buttons to change the status of pins 17, 18, and 27 of the target module. The pin numbers follow the Broadcom SOC channel standard.
+The server handles POST requests from the buttons to change the status of the GPIO pins. In the Proteus simulator, you can use three LED indicators to monitor the pin status changes, along with an RPi v4 module for server setup.
+The server is implemented using the `http.server` library in Python, and the control of the GPIO pins is done using the `RPi.GPIO` library.
+
+
+## Requirements
+
+- Proteus 8 simulator
+- Python 3.x
+- RPi.GPIO library
+
+## Installation
+
+1. Clone the repository:
